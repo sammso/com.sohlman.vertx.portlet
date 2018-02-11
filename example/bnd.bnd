@@ -1,0 +1,13 @@
+#Bundle-Name: ${project.artifactId}
+#Bundle-SymbolicName: ${project.artifactId}	
+#Bundle-Version: ${project.version}
+## Un-comment these for direct Dev Studio deploy
+Bundle-Name: com.sohlman.vertx.portlet.example
+Bundle-SymbolicName: com.sohlman.vertx.portlet.example
+Bundle-Version: 0.0.1
+
+-jsp: *.jsp,*.jspf
+-plugin.jsp: com.liferay.ant.bnd.jsp.JspAnalyzerPlugin
+-plugin.resourcebundle: com.liferay.ant.bnd.resource.bundle.ResourceBundleLoaderAnalyzerPlugin
+-plugin.sass: com.liferay.ant.bnd.sass.SassAnalyzerPlugin
+-sass: *
